@@ -1,0 +1,139 @@
+---
+---
+html
+{
+	margin: 0;
+	padding: 0;
+	font: normal 100%/1.4 Georgia,serif;
+}
+html, body{
+	overflow-x:hidden;
+}
+.about-text{
+	padding-right: 8px;
+}
+@media screen and (max-width: 699px){
+	.about-text{
+		padding-left: 8px;
+		padding-right: 8px;
+	}
+	.contact-row{
+		padding-left: 8px;
+	}
+}
+.common-header-row{
+	background-color: #000531;
+}
+.current{
+	background-color: #000531;
+	color: #fff;
+}
+.white-text{
+	color: #fff !important;
+}
+.bio-color{
+	color:#843eb8 !important;
+}
+.international-small{
+	font-size: 1.5rem;
+}
+/*.add-img {
+	background-image: url('{{site.baseurl}}/img/vit_tt_1.jpg');
+	background-size: cover;
+
+}*/
+.common-header-bg-1{
+	height: 180px;
+	width: 100%;
+	background-image: url('../img/vit_tt.jpg');
+background-size: cover;
+}
+.common-header-bg-2{
+	height: 180px;
+	width: 100%;
+	background-image: url('../img/vit_tt_1.jpg');
+background-size: cover;
+}
+.side {
+	border-bottom: 1px solid LightGrey;
+	padding: 7px 0px 7px 0px;
+}
+.sidelink .side{
+	padding-left: 7px;
+}
+
+
+.nav-top{
+	font-size: 20px;
+}
+.side {
+	font-size: 16px;
+	color: rgb(199,21,133);
+	font-weight: bold;
+	font-family: sans-serif;
+}
+.well{
+	border-radius: 0;
+}
+.index-head{
+	/*color: rgb(	0,191,255);*/
+	color: rgb(199,21,133);
+	font-weight: bold;
+}
+.side:hover{
+	background-color: skyblue;
+	padding-left: 1rem;
+}
+.current{
+	background-color: skyblue;
+}
+.footer-link{
+	color: rgb(199,21,133);
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 60%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+.sidelink {
+	text-decoration: none !important;
+}
+.sidelink .side{
+	-webkit-transition: all 0.5s ease;
+ -moz-transition: all 0.5s ease;
+ -o-transition: all 0.5s ease;
+ transition: all 0.5s ease;
+
+}
+.contact-address, .advisor-name, .post{
+	font-size: 18px;
+	font-weight: bold;
+	border-bottom: 1px solid rgb(200,200,200) ;
+	padding-bottom: 3px.
+}
+/*.change-font{
+	font-size: 19px;
+}*/
+
+.theme-list{
+	margin: 5px;
+	font-size: 16px;
+
+}
+
+.container2 {
+    padding: 2px 0px;
+}
+
+#lakshmi{
+	height: 133px;
+}
+#abhay{
+	height: 133px;
+}
